@@ -42,9 +42,9 @@ void DriveBase::Periodic() {
 
 }
 
-void DriveBase::TankDrive(float x, float rot) {
+void DriveBase::TankDrive(float l, float r) {
 
-	dDrive->TankDrive(x,rot);
+	dDrive->TankDrive(l,r);
 }
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
